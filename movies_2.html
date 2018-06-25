@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <meta name="keyword" content="a,b,c,d,e,f">
+    <meta name="description" content="asdf;lkj">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img id="brand-image" src="img/logo.jpg" height="50px" width="180px">
+        </a>
+        <ul class="navbar-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <li class="nav-item ">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/inex.html">Home</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Movies
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_1.html">Inception</a>
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_2.html">The shutter Island</a>
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_3.html">The wolf of wall street</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/awards.html">Awards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
+                </li>
+
+
+
+        </ul>
+
+
+    </nav>
+
+
+    <!-- Jumbotron starts -->
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Shutter Island</h1>
+        </div>
+    </div>
+
+    <!-- Jumbotron ends -->
+
+
+    <!-- Card ends -->
+
+    <div class="container">
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary">Cast</button>
+            <button type="button" class="btn btn-primary">Trivia</button>
+            <button type="button" class="btn btn-primary">Quotes</button>
+            <button type="button" class="btn btn-primary">Parental Guide</button>
+            <button type="button" class="btn btn-primary">Budget</button>
+        </div>
+    </div>
+
+    <!-- Buttons ends-->
+
+    <div class="container mt-3">
+
+        <div class="d-flex flex-row bg-secondary mb-3">
+            <div class="p-4 flex-fill ">
+                <div class="container">
+                    <div class="card img-fluid" style="width:250px">
+                        <img class="card-img-top" src="img/m_2.jpg" alt="inception" style="width:100%">
+                        <div class="card-img-overlay">
+
+
+
+                            <a href="https://www.imdb.com/title/tt1130884/?ref_=fn_al_tt_1" class="btn btn-primary" style="opacity: 0.7;">Go to IMDB</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="p-4 flex-fill ">
+                Shutter Island is a movie starring Leonardo DiCaprio, Emily Mortimer, and Mark Ruffalo. In 1954, a U.S. Marshal investigates
+                the disappearance of a murderer, who escaped from a hospital for the criminally insane.
+            </div>
+        </div>
+
+        <div class="container">
+
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Read more</button>
+            <div id="demo" class="collapse">
+                It's 1954, and up-and-coming U.S. marshal Teddy Daniels is assigned to investigate the disappearance of a patient from Boston's
+                Shutter Island Ashecliffe Hospital. He's been pushing for an assignment on the island for personal reasons,
+                but before long he wonders whether he hasn't been brought there as part of a twisted plot by hospital doctors
+                whose radical treatments range from unethical to illegal to downright sinister. Teddy's shrewd investigating
+                skills soon provide a promising lead, but the hospital refuses him access to records he suspects would break
+                the case wide open. As a hurricane cuts off communication with the mainland, more dangerous criminals "escape"
+                in the confusion, and the puzzling, improbable clues multiply, Teddy begins to doubt everything - his memory,
+                his partner, even his own sanity.
+            </div>
+        </div>
+        <!-- Progress bar  -IMDB-->
+
+        <div class="container">
+            <h2>IMDB Rating</h2>
+            <p></p>
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width:72%"></div>
+            </div>
+        </div>
+
+        <!-- Progress bar Rotten tomatos -->
+
+        <div class="container">
+            <h2>Rotten tomatos</h2>
+            <p></p>
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width:21%"></div>
+            </div>
+        </div>
+
+        <!-- Models -->
+
+        <br>
+        <!-- paginations starts -->
+
+        <div class="container">
+
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="file:///home/user/Documents/Bootstrap/movies_1.html">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="file:///home/user/Documents/Bootstrap/movies_1.html">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="file:///home/user/Documents/Bootstrap/movies_2.html">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="file:///home/user/Documents/Bootstrap/movies_3.html">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="file:///home/user/Documents/Bootstrap/movies_3.html">Next</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <footer class="page-footer font-small cyan darken-3 mt-4">
+
+            <div class="container">
+
+
+                <div class="row">
+
+
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+
+
+                            <a href="https://www.facebook.com/LeonardoDiCaprio/" class="fb-ic">
+                                <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+                            <a href="https://twitter.com/leodicaprio?lang=en" class="tw-ic">
+                                <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+                            <a href="'#" class="gplus-ic">
+                                <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+                            <a href="#" class="li-ic">
+                                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+                            <a href="https://www.instagram.com/leonardodicaprio/?hl=en" class="ins-ic">
+                                <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+
+                            <a href="#" class="pin-ic">
+                                <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </footer>
+
+
+
+
+</body>
+
+
+
+
+</html>
