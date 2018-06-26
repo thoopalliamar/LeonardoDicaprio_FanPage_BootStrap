@@ -1,8 +1,9 @@
+<!-- code starts here -->
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf=8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <meta name="keyword" content="a,b,c,d,e,f">
     <meta name="description" content="asdf;lkj">
@@ -12,8 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 </head>
+<!-- body starts here -->
 
 <body>
+    <!-- navbar starts here -->
     <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="#">
             <img id="brand-image" src="img/logo.jpg" height="50px" width="180px">
@@ -42,26 +45,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
                 </li>
-
-
-
         </ul>
-
-
     </nav>
+    <!-- navbar ends here -->
 
 
-  
-
+    <!-- jumbotron starts here -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1>The wolf of wall street</h1>
         </div>
     </div>
+    <!-- jumbotron ends here -->
 
-  
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="btn-group btn-group-lg">
             <button type="button" class="btn btn-primary">Cast</button>
             <button type="button" class="btn btn-primary">Trivia</button>
@@ -69,46 +67,161 @@
             <button type="button" class="btn btn-primary">Parental Guide</button>
             <button type="button" class="btn btn-primary">Budget</button>
         </div>
-    </div>
-
-   
-
-    <div class="container mt-3">
-
-        <div class="d-flex flex-row bg-secondary mb-3">
-            <div class="p-4 flex-fill ">
-                <div class="container">
-                    <div class="card img-fluid" style="width:250px">
-                        <img class="card-img-top" src="img/m_3.png" alt="inception" style="width:100%">
-                        <div class="card-img-overlay">
+    </div> -->
 
 
+    <!-- main container for cards starts here -->
+    <div class="container">
+        <div class="card-columns bg-default">
+            <!-- card1 starts here -->
+            <div class="card bg-default white-text">
+                <div class="body">
+                    <style>
+                        .carousel-inner img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
 
-                            <a href="https://www.imdb.com/title/tt0993846/?ref_=nv_sr_1" class="btn btn-primary" style="opacity: 0.7;">Go to IMDB</a>
+                    <body>
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <!-- This shows the no of images in the carousel -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                            <!-- This section holds the links for all the images -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/m_3.png" alt="Leonardo_1" width="1100" height="300   ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/4.1.jpg" alt="Leonardo_2" width="1100" height="300">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/4.2.jpg" alt="Leonardo_3" width="1100" height="300">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
                         </div>
+                </div>
+                <div class="footer bg-success">
+                    <a href="https://www.imdb.com/title/tt0993846/" class="btn btn-success" style="opacity: 0.7;">Go to IMDB</a>
+                </div>
+            </div>
+            <!-- card 1 ends here -->
+
+
+            <!-- card 2 starts here -->
+            <div class="card ">
+                <p>Jordan Belfort is a Long Island penny stockbroker who served 22 months in prison for defrauding investors in a massive 1990s securities scam that involved widespread corruption on Wall Street and in the corporate banking world, including shoe designer Steve Madden.
+                </p>
+                <div class="container">
+
+                    <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#demo">Read more</button>
+                    <div id="demo" class="collapse">
+                        Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within
+                        the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability
+                        has made him a coveted player in this treacherous new world of corporate espionage, but it has also
+                        made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered
+                        a chance at redemption. One last job could give him his life back but only if he can accomplish the
+                        impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull
+                        off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be
+                        the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous
+                        enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 ends here -->
+
+
+            <!-- card 3 starts here -->
+            <div class="card bg-light white-text">
+
+                <div class="header">
+                    <h1>Cast</h1>
+                </div>
+                <div class="body">
+                    <table class="table table-stripped">
+                        <thead>
+                            <th>Name</th>
+                            <th>Role</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Christ</td>
+                                <td>Director</td>
+                            </tr>
+                            <tr>
+                                <td>Christ</td>
+                                <td>Director</td>
+                            </tr>
+                            <tr>
+                                <td>Christ</td>
+                                <td>Director</td>
+                            </tr>
+                            <tr>
+                                <td>Christ</td>
+                                <td>Director</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer bg-success">
+                    <a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_1" class="btn btn-success" style="opacity: 0.7;">More</a>
+                </div>
+            </div>
+            <!-- card 3 ends here -->
+
+
+            <!-- card 4 starts here -->
+            <div class="card  white-text">
+                <div class="header">
+                    <h1>Quotes</h1>
+                </div>
+                <div class="body">
+                    <div class="container">
+                        <blockquote>
+                            What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient... highly contagious. Once
+                            an idea has taken hold of the brain it's almost impossible to eradicate. An idea that is fully
+                            formed - fully understood - that sticks; right in there somewhere.
+                            <small>
+                                -Cobb
+                            </small>
+                    </div>
+                    <div class="footer bg-success">
+                        <a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_1" class="btn btn-success" style="opacity: 0.7;">More</a>
                     </div>
                 </div>
 
-
             </div>
+            <!-- card 4 ends here -->
 
-            <div class="p-4 flex-fill ">
-                Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving
-                crime, corruption and the federal government.
+
+            <!-- card 5 starts here -->
+            <div class="card" style="height: 150%;">
+
+                <div class="body">
+                    <div class="media">
+                        <div class="media-body">
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/idAVRvQeYAE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- div 5 ends here -->
         </div>
+        <!-- container for cards ends here -->
 
-        <div class="container">
-
-            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Read more</button>
-            <div id="demo" class="collapse">
-                Jordan Belfort is a Long Island penny stockbroker who served 22 months in prison for defrauding investors in a massive 1990s
-                securities scam that involved widespread corruption on Wall Street and in the corporate banking world, including
-                shoe designer Steve Madden.
-            </div>
-        </div>
-  
-
+        <!-- rating IMBD -->
         <div class="container">
             <h2>IMDB Rating</h2>
             <p></p>
@@ -117,8 +230,8 @@
             </div>
         </div>
 
-       
 
+        <!-- rating Rotten tomatos -->
         <div class="container">
             <h2>Rotten tomatos</h2>
             <p></p>
@@ -127,11 +240,10 @@
             </div>
         </div>
 
-   
 
         <br>
-     
 
+        <!-- pagination starts here -->
         <div class="container">
 
             <ul class="pagination">
@@ -153,40 +265,45 @@
             </ul>
         </div>
 
-
-        <footer class="page-footer font-small cyan darken-3 mt-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 py-5">
-                        <div class="mb-5 flex-center">
-
-                            <a href="https://www.facebook.com/LeonardoDiCaprio/" class="fb-ic">
-                                <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-
-                            <a href="https://twitter.com/leodicaprio?lang=en" class="tw-ic">
-                                <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-
-                            <a href="'#" class="gplus-ic">
-                                <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-
-                            <a href="#" class="li-ic">
-                                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-
-                            <a href="https://www.instagram.com/leonardodicaprio/?hl=en" class="ins-ic">
-                                <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-
-                            <a href="#" class="pin-ic">
-                                <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    </div>
+    <!-- footer begins here -->
+    <footer class="page-footer bg-dark">
+        <div class="d-flex justify-content-around">
+            <div class="p-3 ">
+                <a href="https://www.facebook.com/LeonardoDiCaprio/" class="fb-ic">
+                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
             </div>
-        </footer>
-</body>
+            <div class="p-3 ">
+                <a href="https://twitter.com/leodicaprio?lang=en" class="tw-ic">
+                    <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="'#" class="gplus-ic">
+                    <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="#" class="li-ic">
+                    <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="https://www.instagram.com/leonardodicaprio/?hl=en" class="ins-ic">
+                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="#" class="pin-ic">
+                    <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+    </body>
+    <!-- body ends here -->
+
 </html>
+<!-- code ends here -->
