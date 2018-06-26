@@ -12,11 +12,7 @@ p {
 
 }
 
-.col-4{
-  float: left;
-min-width: 80px;
-  background-color: bisque;
-}
+
 .col-6{
   float: left;
   min-width: 200px;
