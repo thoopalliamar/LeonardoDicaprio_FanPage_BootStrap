@@ -19,39 +19,40 @@
 
 <body>
     <!-- navbar starts here -->
-    <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="file:///home/user/Documents/Bootstrap/index.html">
             <img id="brand-image" src="img/logo.jpg" alt="logo" height="50" width="180">
         </a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </li>
-            <li class="nav-item">
-                <div class="collapse navbar-collapse" id="collapsibleNavbar"></div>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="file:///home/user/Documents/Bootstrap/index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    Movies
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_1.html">Inception</a>
-                    <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_2.html">The shutter Island</a>
-                    <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_3.html">The wolf of wall street</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="file:///home/user/Documents/Bootstrap/awards.html">Awards</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
-            </li>
-        </ul>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Movies
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_1.html">Inception</a>
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_2.html">The shutter Island</a>
+                        <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_3.html">The wolf of wall street</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/awards.html">Awards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- navbar ends here -->
 
@@ -127,14 +128,14 @@
 
 
             <!-- card 2 starts here -->
-            <div class="card ">
+            <div class="card bg-info" style="opacity: 0.9;">
                 <p>Jordan Belfort is a Long Island penny stockbroker who served 22 months in prison for defrauding investors
                     in a massive 1990s securities scam that involved widespread corruption on Wall Street and in the corporate
                     banking world, including shoe designer Steve Madden.
                 </p>
                 <div class="container">
 
-                    <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#demo7">Read more</button>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo7">Read more</button>
                     <div id="demo7" class="collapse">
                         Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within
                         the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability
@@ -193,7 +194,7 @@
 
 
             <!-- card 4 starts here -->
-            <div class="card  white-text">
+            <div class="card  bg-warning">
                 <div class="header">
                     <h1>Quotes</h1>
                 </div>
@@ -218,21 +219,24 @@
 
 
             <!-- card 5 starts here -->
-            <div class="card" style="height: 150%;">
-
-                <div class="body">
-                    <div class="media">
-                        <div class="media-body">
-                            <iframe width="320" height="180" src="https://www.youtube.com/embed/idAVRvQeYAE">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="card">
+                
+                    <h1>Budget</h1>
+                
+                 <ul class="list-group">
+                     <li class="list-group-item list-group-item-warning">Domestic Total Gross: $292,576,195</li>
+                     <li class="list-group-item list-group-item-warning">Foreign Total Gross: $535,745,832</li>
+                     <li class="list-group-item list-group-item-success">Worldwide Total Gross: <strong>$828,322,032</strong></li>
+                 </ul>
+ 
+ 
+             </div>
             <!-- div 5 ends here -->
         </div>
         <!-- container for cards ends here -->
 
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/iszwuX1AK6A" ></iframe>
+        
         <!-- rating IMBD -->
         <div class="container">
             <h2>IMDB Rating</h2>
@@ -291,11 +295,7 @@
                     <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
             </div>
-            <div class="p-3 ">
-                <a href="'#" class="gplus-ic">
-                    <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-            </div>
+            
             <div class="p-3 ">
                 <a href="#" class="li-ic">
                     <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
@@ -306,11 +306,7 @@
                     <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
             </div>
-            <div class="p-3 ">
-                <a href="#" class="pin-ic">
-                    <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-                </a>
-            </div>
+         
         </div>
     </footer>
     <!-- Footer ends here -->

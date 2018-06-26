@@ -23,39 +23,40 @@
 
 <body>
   <!-- navbar begins here -->
-  <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">
+  <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="file:///home/user/Documents/Bootstrap/index.html">
       <img id="brand-image" src="img/logo.jpg" alt="logo" height="50" width="180">
     </a>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </li>
-      <li class="nav-item">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar"></div>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="file:///home/user/Documents/Bootstrap/index.html">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-          Movies
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_1.html">Inception</a>
-          <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_2.html">The shutter Island</a>
-          <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_3.html">The wolf of wall street</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="file:///home/user/Documents/Bootstrap/awards.html">Awards</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
-      </li>
-    </ul>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="file:///home/user/Documents/Bootstrap/index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Movies
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_1.html">Inception</a>
+            <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_2.html">The shutter Island</a>
+            <a class="dropdown-item" href="file:///home/user/Documents/Bootstrap/movies_3.html">The wolf of wall street</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///home/user/Documents/Bootstrap/awards.html">Awards</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///home/user/Documents/Bootstrap/biography.html">Biography</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- navbar ends here -->
 
@@ -90,15 +91,7 @@
 
     <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click here to know more</button>
     <div id="demo" class="collapse">
-      <p>
-        Leonardo Wilhelm DiCaprio was born on November 11, 1974, in Los Angeles. He is the only child of Irmelin (née Indenbirken),
-        a legal secretary, and George DiCaprio, an underground comix artist and producer and distributor of comic books.
-        DiCaprio's father is of Italian (from Alife) and German (from Bavaria) descent. DiCaprio's maternal grandfather,
-        Wilhelm Indenbirken, was German. His maternal grandmother, Helene Indenbirken (born Yelena Smirnova; 1915–2008),was
-        a Russian-born German citizen.In an interview in Russia, DiCaprio referred to himself as "half-Russian" and said
-        that two of his grandparents were Russian.DiCaprio's parents met while attending college and subsequently moved to
-        Los Angeles, California.
-      </p>
+
 
       <p>
         DiCaprio was named Leonardo because his pregnant mother was looking at a Leonardo da Vinci painting in the Uffizi museum
@@ -167,54 +160,54 @@
       he starred in Christopher Nolan’s blockbuster “Inception,” and the dramatic thriller “Shutter Island,” which marked
       his fourth collaboration with director Martin Scorsese.
     </p>
-    <div class="container">
 
 
-      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Click here to know more</button>
-      <div id="demo1" class="collapse">
+
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Click here to know more</button>
+    <div id="demo1" class="collapse">
 
 
-        <p>
-          DiCaprio earned an Oscar® nomination in 2007 for his performance in Edward Zwick’s drama “Blood Diamond,” also receiving
-          Golden Globe, Critics’ Choice and Screen Actors Guild (SAG) Award® nominations for his work in the film. That same
-          year, he garnered Golden Globe, BAFTA Award, Critics’ Choice Award and SAG Award® nominations for his role in the
-          Oscar®-winning Best Picture “The Departed,” directed by Scorsese. He also shared in a SAG Award® nomination for
-          Outstanding Motion Picture Cast Performance as a member of the ensemble cast of “The Departed.”
-        </p>
+      <p>
+        DiCaprio earned an Oscar® nomination in 2007 for his performance in Edward Zwick’s drama “Blood Diamond,” also receiving
+        Golden Globe, Critics’ Choice and Screen Actors Guild (SAG) Award® nominations for his work in the film. That same
+        year, he garnered Golden Globe, BAFTA Award, Critics’ Choice Award and SAG Award® nominations for his role in the
+        Oscar®-winning Best Picture “The Departed,” directed by Scorsese. He also shared in a SAG Award® nomination for Outstanding
+        Motion Picture Cast Performance as a member of the ensemble cast of “The Departed.”
+      </p>
 
 
-      </div>
-      <!-- collapse ends here for career -->
+    </div>
+    <!-- collapse ends here for career -->
 
-      <!-- model starts here for careeer -->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1">
-        Facts!!!
-      </button>
+    <!-- model starts here for careeer -->
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1">
+      Facts!!!
+    </button>
 
-      <div class="modal" id="myModal1">
-        <div class="modal-dialog">
-          <div class="modal-content">
+    <div class="modal" id="myModal1">
+      <div class="modal-dialog">
+        <div class="modal-content">
 
-            <div class="modal-header">
-              <h4 class="modal-title">click here to know more</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
+          <div class="modal-header">
+            <h4 class="modal-title">click here to know more</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
 
-            <div class="modal-body">
-              <p> Leonardo DiCaprio was named Leonardo because his pregnant mother was looking at a Leonardo da Vinci painting
-                in a museum in Italy when he first kicked.</p>
-              <p>Leonardo DiCaprio blocked a film he was in from being released in the U.S. and Canada. The producer of the
-                film has released it on the Internet and drafted a letter to Leo about it. </p>
-            </div>
+          <div class="modal-body">
+            <p> Leonardo DiCaprio was named Leonardo because his pregnant mother was looking at a Leonardo da Vinci painting
+              in a museum in Italy when he first kicked.</p>
+            <p>Leonardo DiCaprio blocked a film he was in from being released in the U.S. and Canada. The producer of the film
+              has released it on the Internet and drafted a letter to Leo about it. </p>
+          </div>
 
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Lets get back</button>
-            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Lets get back</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <!-- model ends here for career -->
   <!-- container for career ends here -->
 
@@ -231,58 +224,60 @@
       issue and investigate concrete solutions to the most pressing environmental challenge of our time
     </p>
 
-    <div class="container">
 
 
-      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Click here to know more</button>
-      <div id="demo2" class="collapse">
+
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Click here to know more</button>
+    <div id="demo2" class="collapse">
 
 
-        <p>
-          Before the Flood premieres in theaters in New York and Los Angeles on October 21st and will air globally on the National
-          Geographic Channel on October 30th in 171 countries and 45 languages. Watch the trailer now
-        </p>
+      <p>
+        Before the Flood premieres in theaters in New York and Los Angeles on October 21st and will air globally on the National
+        Geographic Channel on October 30th in 171 countries and 45 languages. Watch the trailer now
+      </p>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/D9xFFyUOpXo" >
-        </iframe>
+      <iframe width="device-width" height="315" src="https://www.youtube.com/embed/D9xFFyUOpXo">
+      </iframe>
 
+    </div>
 
-      </div>
-      <!-- collapse ends here for envi acts -->
+    <!-- collapse ends here for envi acts -->
 
-      <!-- model starts here for envi acts -->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">
-        Facts!!!
-      </button>
-
-
-      <div class="modal" id="myModal2">
-        <div class="modal-dialog">
-          <div class="modal-content">
+    <!-- model starts here for envi acts -->
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">
+      Facts!!!
+    </button>
 
 
-            <div class="modal-header">
-              <h4 class="modal-title">Environmental activites</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
+    <div class="modal" id="myModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
 
 
-            <div class="modal-body">
-              <p>Leonardo DiCaprio spent part of his childhood in Germany with his grandparents and speaks German fluently.</p>
-              <p>Leonardo DiCaprio was originally selected for the role of Patrick Bateman in American Psycho but he reluctantly
-                did not take it as most of his fans were pre-teen girls.</p>
-            </div>
-
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Lets get back </button>
-            </div>
-
+          <div class="modal-header">
+            <h4 class="modal-title">Environmental activites</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
+
+
+          <div class="modal-body">
+            <p>Leonardo DiCaprio spent part of his childhood in Germany with his grandparents and speaks German fluently.</p>
+            <p>Leonardo DiCaprio was originally selected for the role of Patrick Bateman in American Psycho but he reluctantly
+              did not take it as most of his fans were pre-teen girls.</p>
+          </div>
+
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Lets get back </button>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
+
+
+
   <!-- model ends here for envi acts -->
   <!-- container for envi acts ends here -->
   <br>
@@ -305,21 +300,13 @@
           <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
         </a>
       </div>
-      <div class="p-3 ">
-        <a href="#" class="li-ic">
-          <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-      </div>
+
       <div class="p-3 ">
         <a href="https://www.instagram.com/leonardodicaprio/?hl=en" class="ins-ic">
           <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
         </a>
       </div>
-      <div class="p-3 ">
-        <a href="#" class="pin-ic">
-          <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-        </a>
-      </div>
+
     </div>
   </footer>
   <!-- Footer ends here -->
